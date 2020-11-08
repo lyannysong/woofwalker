@@ -1,0 +1,657 @@
+@import url("https://cdn.jsdelivr.net/npm/bulma@0.9.0/css/bulma.min.css");
+html {
+	scroll-behavior: smooth;
+}
+
+.page-section {
+  height: 100vh;
+  padding: 3em;
+  text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+.page-section {
+    height: auto;
+  }
+}
+
+
+
+/*header*/
+.ps-header {
+background-color: #c29c63;
+background-image: url("https://www.transparenttextures.com/patterns/binding-dark.png");
+}
+
+header {
+  position: relative;
+  opacity: 0;
+  -webkit-transition: opacity .5s .25s ease-out;
+  transition: opacity .5s .25s ease-out;
+}
+
+header:after {
+    bottom: 0;
+  content: "";
+    left: 0;
+  position: relative;
+    right: 0;
+    top: 0;
+}
+
+
+.heading {
+  color: white;
+  text-shadow: 2px 2px 6px #000000;
+  font-size: 8em;
+  font-family: "Staatliches";
+  src: url("Staatliches-Regular.ttf");
+    left: 50%;
+  line-height: 1;
+  margin: 0;
+  position: absolute;
+    top: 20%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  width: 5em;
+  z-index: 10;
+} 
+
+
+header.is-visible {
+  opacity: 1;
+}
+
+.heading {
+  -webkit-transform: translate(-50%, calc(-50% + 1em));
+          transform: translate(-50%, calc(-50% + 1em));
+}
+
+
+.is-visible .heading {
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.heading {
+  -webkit-transition: -webkit-transform 4s .25s cubic-bezier(0,1,.3,1);
+  transition: -webkit-transform 4s .25s cubic-bezier(0,1,.3,1);
+  transition: transform 4s .25s cubic-bezier(0,1,.3,1);
+  transition: transform 4s .25s cubic-bezier(0,1,.3,1), -webkit-transform 4s .25s cubic-bezier(0,1,.3,1);
+
+  will-change: transform;
+}
+
+#dogsvg {
+  width: 500px;
+  display: inline-block;
+  margin-left: 80px;
+  margin-top: 200px;
+}
+
+
+
+
+h2.hero-h2 {
+  color: white;
+  font-size: 2em;
+  font-family: "Open_Sans";
+  src: url("OpenSans-Light.ttf");
+  position: absolute;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  top: 50%;
+}
+
+/*paw print*/
+
+span{
+opacity: 0%;
+color:#FEFAE0;
+font-size: 1.5em;
+position: absolute;
+left: 50%;
+margin-right: -50%;
+
+}
+
+@keyframes footopacity {
+  0% { opacity: 0;}
+  25% { opacity: 60%;}
+  50% { opacity: 100%;}
+  100% { opacity: 10%;}
+ }
+
+#left{
+  transform: rotate(-135deg);
+  bottom: 150px;
+  animation : footopacity 3s ease-in;
+}
+
+
+#right{
+  transform: rotate(135deg);
+  bottom: 110px;
+  animation : footopacity 3s ease-in;
+  animation-delay : 2s;
+}
+
+#left2{
+  transform: rotate(-135deg);
+  bottom: 70px;
+  animation : footopacity 3s ease-in;
+  animation-delay : 4s;
+}
+
+
+#right2{
+  transform: rotate(135deg);
+  bottom: 30px;
+  animation : footopacity 3s ease-in;
+  animation-delay : 6s;
+}
+
+#bottom{
+  transform: rotate(180deg);
+  bottom: 30px;
+  animation : footopacity 1s ease-in infinite;
+  animation-delay : 10s;
+}
+
+/*weather API*/
+.weather{
+  background-color: #FEFAE0;
+  padding: 50px;
+  height: 100vh;
+}
+
+@media only screen and (max-width: 600px) {
+  .weather {
+    height: auto;
+  }
+}
+
+#temp-num {
+  color: white;
+  font-size: 2em;
+  font-weight: 100;
+  opacity: 100%;
+  
+  margin:auto;
+}
+
+#summary {
+  color: white;
+  margin:auto;
+}
+
+#temp-unit {
+  color: white;
+  font-size: 13px;
+  opacity: 100%;
+  margin:auto;
+}
+
+#weather {
+  padding: 1.5em;
+  text-align: center;
+}
+
+h4 {
+  font-size: 3em;
+  font-family: "Poiret One";
+  src: url("PoiretOne-Regular.ttf");
+  color: black;
+}
+
+p {
+  font-size: 1.5em;
+  font-family: "Open_Sans";
+  src: url("OpenSans-Regular.ttf");
+}
+
+a {
+  font-size: 1.5em;
+  font-family: "Open_Sans";
+  src: url("OpenSans-Bold.ttf");
+  color: black;
+}
+
+a:hover {
+  color: #606c38;
+  text-decoration-color: #606c38;
+  text-decoration-line: underline;
+  }
+
+.text {
+  width: 35em;
+  text-align: center;
+  margin:auto;
+}
+@media only screen and (max-width: 600px) {
+  .text {
+    width: 25em;
+  }
+}
+
+.card{
+  background-color: #606c38;
+background-image: url("https://www.transparenttextures.com/patterns/binding-dark.png");
+/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+  
+}
+
+/*navigation*/
+.ps-main-nav{
+  background-color: #606c38;
+background-image: url("https://www.transparenttextures.com/patterns/carbon-fibre-v2.png");
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.menu-col .inner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #283618;
+  color: white;
+  height: 400px;
+  padding: 1.5em;
+  border-radius: 30px;
+  box-shadow: 0px 10px 30px rgba(0,0,0,0.3);
+  font-family: "Poiret One";
+  src: url("PoiretOne-Regular.ttf");
+  
+}
+
+
+@media only screen and (max-width: 600px) {
+.menu-col .inner{
+  height: 150px;
+}}
+
+/* Treat Recipes */
+
+#treatrecipes {
+padding: 100px;
+background-color: #bc6c25;
+}
+
+h1 {
+  font-family: "Poiret One";
+  src: url("PoiretOne-Regular.ttf");
+  font-size: 3em;
+  color: white;
+}
+
+.is-gapless {
+  padding: 20px;
+}
+
+.recipe {
+  background-color: #fefae0;
+  outline: solid 3px #000;
+  height: 30vh;
+  text-align: left;
+  overflow: hidden;
+  position: relative;
+}
+
+
+.recipename {
+  font-family: "Staatliches";
+  src: url("Staatliches-Regular.ttf");
+  transition: transform 400ms ease;
+  text-align: center;
+  color: black;
+  margin: 10px;
+}
+
+.recipeimage {
+  height: 20vh;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+}
+
+.recipe:hover {
+  background-color: #dda15e;
+}
+
+.show {
+  font-family: "Staatliches";
+  src: url("Staatliches-Regular.ttf");
+  background-color: #fefae0;
+  outline: solid 3px #000;
+  padding: 10px;
+  border: none;
+  display: none;
+}
+
+.show:hover {
+    background-color: #dda15e;
+}
+
+@media only screen and (max-width: 600px) {
+#treatrecipes {
+    height: auto;
+  }
+.showlater{
+  display: none;
+}
+
+.show {
+  display: inline;
+}}
+
+/* Modal */
+.modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 70%;    
+  height: 60%;
+  overflow: scroll;
+  background: #dda15e;   
+  border: none; 
+  outline: solid 3px #000;
+  display: block;
+}
+
+.modal-content {
+  padding: 2em;
+}
+
+.modal-close-btn {
+  position: absolute;
+  background: #dda15e; 
+  top: 10px;
+  right: 10px;
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  padding: 0;
+  text-align: center;
+  transition: all 0.2s ease;
+  cursor: pointer;
+  outline: solid 3px #000;
+  border: none;
+}
+
+.modal-close-btn:hover {
+  background: #bc6c25; 
+  transform: scale(1.1);
+}
+
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background: rgba(0,0,0,0.3);
+}
+
+/*recipe modal template*/
+#name{
+color: black;
+margin-top: 60px;
+font-family: "Staatliches";
+src: url("Staatliches-Regular.ttf");
+font-size: 2em;
+}
+
+#image{
+width: 600px;
+height: auto;
+}
+
+.ingreinstru{
+  font-size: 1.5em;
+}
+
+#ingredients, #instructions{
+ text-align: left;
+ margin: 5px;
+ color: black;
+
+}
+
+
+#twocol{
+ display: flex;
+ 
+}
+
+@media only screen and (max-width: 600px) {
+#twocol{
+  display: initial;
+}
+#image{
+  width: 300px;
+  height: auto;
+  }
+}
+  
+
+/*walkies calculater*/
+
+#walkiescalculator{
+  background-color: #283618;
+background-image: url("https://www.transparenttextures.com/patterns/45-degree-fabric-light.png");
+  padding: 100px;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.calculator{
+  background-color: #283618;
+  padding: 50px;
+  border: solid 1px white;
+}
+
+.label{
+   font-family: "Poiret One";
+  src: url("PoiretOne-Regular.ttf");
+  font-size: 3em;
+  color: white;
+}
+
+
+.size{
+  border-radius: 50%;
+  font-family: "Staatliches";
+  src: url("Staatliches-Regular.ttf");
+  background-color:#283618;
+  color: white;
+  font-size: 1.5em;
+
+}
+
+#breed{
+  font-size: 1em;
+  font-family: "Staatliches";
+  src: url("Staatliches-Regular.ttf");
+  color: white;
+}
+
+.size:hover {
+  transform: scale(1.1);
+  }
+
+#myBtn{
+  font-family: "Staatliches";
+  src: url("Staatliches-Regular.ttf");
+  border: 1px solid white;
+  color: white;
+  background-color: #283618;
+  }
+  
+  
+#myBtn:hover{
+    border: 1px solid #606c38;
+    color: #606c38;
+    background-color: white;
+    transform: scale(1.1);
+    }
+
+  #myProgress {
+      width: 100%;
+      background-color: #ddd;
+    }
+    
+  #myBar {
+      width: 1%;
+      height: 10px;
+      background-color: #283618;
+background-image: url("https://www.transparenttextures.com/patterns/45-degree-fabric-light.png");
+    }
+
+#walkresults{
+  font-family: "Poiret One";
+  src: url("PoiretOne-Regular.ttf");
+  font-size: 1em;
+  color: white;
+}
+
+#clear{
+  color: #77a349;
+}
+
+/* time management*/
+#timemanagement{
+  background-color: #FEFAE0;
+
+}
+
+.w3-content{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.mySlides{
+  height: 80vh;
+  width: 900px;
+  object-fit: contain;
+}
+
+
+#timemanagementtitle{
+  color: black;
+}
+
+.s4{
+  width: 100px;
+  padding: 20px;
+}
+
+.w3-opacity{
+  opacity: 50%;
+}
+
+.w3-opacity:hover{
+  opacity: 100%;
+}
+
+@media only screen and (max-width: 600px) {
+  .w3-content{
+    flex-direction: column;
+  }
+.w3-section{
+  display: flex;
+  flex-direction: row;
+}
+}
+
+/* Stories*/
+
+#doggostories{
+  padding: 50px;
+  background-color: #c29c63;
+background-image: url("https://www.transparenttextures.com/patterns/binding-dark.png");
+}
+
+.circles{
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+align-items: center;
+justify-content: center;
+}
+
+.circle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+  width: 200px;
+  height: 200px; 
+  border: 3px solid white;
+  color: white;
+  padding: 10px;
+  
+}
+
+.circle:hover{
+  background-color: white;
+  opacity: 50%;
+  border: none;
+  color: black;
+}
+
+@media only screen and (max-width: 600px) {
+  #doggostories {
+      height: auto;
+    }}
+
+#story{
+  color: black;
+}
+
+#storylink{
+  color: white;
+  font-family: "Staatliches";
+  src: url("Staatliches-Regular.ttf");
+  animation: blinkingText 1.2s infinite;
+}
+
+@keyframes blinkingText{
+  0%{     color: #fff;    }
+  49%{    color: #fff; }
+  60%{    color: transparent; }
+  99%{    color:transparent;  }
+  100%{   color: #fff;    }
+}
+
+#storylink:hover{
+  color: black;
+  opacity: 60%;
+  text-decoration: none
+}
+#cooldogsvg {
+  width: 300px;
+  display: inline-block;
+  margin-left: 80px;
+  margin-top: 100px;
+}
+
+@media only screen and (max-width: 600px) {
+#cooldogsvg {
+  display: inline-block;
+  margin-left: 80px;
+  margin-top: 200px;
+}}
+
+/* footer */
+.footer{
+  background-color: #fefae0;
+}
+
+

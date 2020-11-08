@@ -1,0 +1,161 @@
+[{
+  "_id": {
+    "$oid": "5f8fff972fd48fd557171b0e"
+  },
+  "ingredients": [
+    "2/3 cup pumpkin puree",
+    "1/4 cup peanut butter",
+    "2 large eggs",
+    "2 1/2 – 3 cups whole wheat flour"
+  ],
+  "directions": [
+    "Preheat oven to 350 degrees F. Line a baking sheet with parchment paper or a silicone baking mat; set aside.",
+    "In the bowl of an electric mixer fitted with the paddle attachment, beat pumpkin puree, peanut butter and eggs on medium-high until well combined, about 1-2 minutes. Gradually add 2 1/2 cups flour at low speed, beating just until incorporated. Add an additional 1/4 cup flour at a time just until the dough is no longer sticky.",
+    "Working on a lightly floured surface, knead the dough 3-4 times until it comes together. Using a rolling pin, roll the dough to 1/4-inch thickness. Using cookie cutters, cut out desired shapes and place onto the prepared baking sheet.",
+    "Place into oven and bake until the edges are golden brown, about 20-25 minutes.*",
+    "Let cool completely."
+  ],
+  "name": "Peanut Butter Dog Treats",
+  "time": "50 minutes",
+  "image": "https://s23209.pcdn.co/wp-content/uploads/2015/01/IMG_5382edit-1.jpg"
+},{
+  "_id": {
+    "$oid": "5f9003da2fd48fd557171b0f"
+  },
+  "ingredients": [
+    "1 cup (255g) natural creamy peanut butter",
+    "3/4 cup (180ml) nonfat milk",
+    "1 large egg or 1/4 cup unsweetened applesauce",
+    "2 cups (244g) whole wheat flour* (spoon & leveled)",
+    "1 Tablespoon baking powder",
+    "1/3 cup (30g) oats*",
+    "2–3 strips cooked bacon, chopped"
+  ],
+  "directions": [
+    "Preheat oven to 325°F (163°C). Line two large baking sheets with parchment paper or silicone baking mats. Set aside.",
+    "In a large bowl, gently mix the peanut butter, milk, and egg together with a wooden spoon or rubber spatula. Add the flour and baking powder. You may need to turn the dough out onto a floured work surface and use your hands to work in the flour. Mix in the oats and bacon. The dough is extremely thick and heavy.",
+    "Using a floured rolling pin, cut into shapes using cookie cutters or a knife. Arrange on the baking sheets. Bake for 18-20 minutes, or until very lightly browned on the bottom. Remove from the oven, and flip the treats to bake the other side for 10-12 more minutes.",
+    "Allow to cool completely before serving to your pup. Cover and store leftovers at room temperature for up to 1 week or in the refrigerator for up to 2 weeks."
+  ],
+  "name": "Bacon Peanut Butter Dog Treats",
+  "time": "42 minutes",
+  "image": "https://fortheloveofcooking.net/wp-content/uploads/2018/08/Peanut-Butter-Bacon-Dog-Treats-8904.jpg"
+},{
+  "_id": {
+    "$oid": "5f90056d2fd48fd557171b10"
+  },
+  "ingredients": [
+    "1 cup whole wheat flour",
+    "1 cup oats",
+    "1/2 cup flaxseed ",
+    "1/2 to 1 cups beef broth",
+    "1/4 cup peanut butter"
+  ],
+  "directions": [
+    "Preheat the oven to 350° F.",
+    "In a medium bowl, stir together the flour, oats and flaxseed. Mix in 1/2 cup beef broth and peanut butter. Mix well, adding additional beef broth if necessary to bring the mixture together to a thick dough. Form into a ball and turn out on a lightly floured surface.",
+    "Roll to about 1/4 inch thickness and cut out to desired shape. ",
+    "Bake for about 20 minutes or until golden brown, flipping halfway. ",
+    "Cool completely, then keep in an airtight container for about one week."
+  ],
+  "name": "Chicken Treats",
+  "time": "40 minutes",
+  "image": "https://i.pinimg.com/originals/b5/f4/59/b5f45935dae7977e377dad882abbb323.jpg"
+},{
+  "_id": {
+    "$oid": "5f9006802fd48fd557171b11"
+  },
+  "ingredients": [
+    "Silicone Heart Mold",
+    "1 cup cooked, finely diced chicken",
+    "1/2 cup rice, cooked & mashed",
+    "3 tablespoons rice flour",
+    "1 tablespoon parsley",
+    "1 egg"
+  ],
+  "directions": [
+    "Preheat oven to 350F",
+    "Mix together all ingredients and stir well.",
+    "Spoon into silicone molds.",
+    "Bake for 20 - 30 minutes, until tops are golden brown.",
+    "Allow to cool and remove from molds."
+  ],
+  "name": "Dog Biscuits",
+  "time": "25 minutes",
+  "image": "https://kitchenconfidante.com/wp-content/uploads/2011/10/Homemade-Dog-Biscuits-kitchenconfidante.com-0645.jpg"
+},{
+  "_id": {
+    "$oid": "5f90085a2fd48fd557171b12"
+  },
+  "ingredients": [
+    "1 Sweet Potato",
+    "1 tbsp Coconut Oil (melted)",
+    "Spices - Turmeric, Cinnamon"
+  ],
+  "directions": [
+    "Preheat oven to 425 degrees F",
+    "Wash and peel the sweet potato",
+    "Cut the sweet potato into evenly sized long skinny (fry shaped) pieces",
+    "Coat with oil and spices - Mix in a large bowl or Ziploc bag",
+    "Place fries on baking sheet in one layer and bake for 15 minutes",
+    "Flip over fries for even baking then bake for another 10-15 minutes"
+  ],
+  "name": "Sweet Potato Fries",
+  "time": "40 minutes",
+  "image": "https://www.beaglesandbargains.com/wp-content/uploads/2014/10/sweetpotato-18.jpg"
+},{
+  "_id": {
+    "$oid": "5f900c752fd48fd557171b13"
+  },
+  "ingredients": [
+    "2 Apples",
+    "1 Cup Greek Nonfat Plain Yogurt",
+    "Water"
+  ],
+  "directions": [
+    "Slice 2 apples into small pieces but remove the seeds and the core.",
+    " Mix the apple slices, yogurt, and a splash of water in your NutriBullet or blender and blend until you get a liquid consistency.",
+    "Pour the mixture into an ice cube tray and freeze for a few hours or until hard."
+  ],
+  "name": "Frozen Apple",
+  "time": "120 minutes",
+  "image": "https://irresistiblepets.net/wp-content/uploads/2014/09/DIY-Frozen-Apple-Dog-Treats-at-IrresistiblePets.com_thumb.jpg"
+},{
+  "_id": {
+    "$oid": "5f900d302fd48fd557171b14"
+  },
+  "ingredients": [
+    "4 cups of flour",
+    "2 cups of shredded cheddar cheese",
+    "2 tbsp-1/4 cup of oil",
+    "1 1/3 cups of water"
+  ],
+  "directions": [
+    "Combine flour and cheese. Stir in oil and water. ",
+    "Roll on floured cutting board to 3/8″ thick. Cut with bone shaped cutter. ",
+    "Placed on un-greased cookie sheet and bake in 250-350 degrees oven until thoroughly dry."
+  ],
+  "name": "Cheesy Bone",
+  "time": "40 minutes",
+  "image": "https://2.bp.blogspot.com/_CezSYzAS5Ms/TF9Y9z1pD5I/AAAAAAAACGA/2HHF9zGG-xY/s400/DSC08783.jpg"
+},{
+  "_id": {
+    "$oid": "5f900e272fd48fd557171b15"
+  },
+  "ingredients": [
+    "1 cup Dry Quick Cook Oatmeal",
+    "½ cup Cinnamon Apple Sauce or Apple Sauce with s dash of Cinnamon Added",
+    "1 large Egg"
+  ],
+  "directions": [
+    "Preheat oven to 350 degrees.",
+    "In large clean but dry mixing bowl pour the cup of oatmeal. Add the applesauce and mix well. Once everything is mixed together add the egg and mix again.",
+    "If you want to get fancy or happen to have either whoopie cake molds or mini bunt pans you can spoon the mixture into the pan. If you just have the basics use a cookie sheet (that's the thin metal baking sheet). Grease the pan or tray with oil - as long as your pet doesn't have any allergies the only oil you should stay away from is grapeseed oil.",
+    "Scoop the mix into the molds or create big drop cookies using a tablespoon.",
+    "Once the oven is to temperature place the tray or pan in the oven for 22 minutes. Make sure to set he kitchen timer and not rely on watching the time. You will likely have a dog sitting in front of the oven making sure you remember but the telephone will ring or you will get an important email and completely forget about the oven.",
+    "The cookies should just pop right out of the pan or slide off of the tray immediately so you can allow to cool. Since your dog is likely begging by this point as soon as the cookies are body temperature you can allow your dog to have a bite or two."
+  ],
+  "name": "Apply Cinnamon",
+  "time": "32 minutes",
+  "image": "data:image/jpeg;base64,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"
+}]
